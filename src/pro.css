@@ -1,0 +1,105 @@
+body{
+    font-size: 14px;
+}
+/* h3{
+    margin-left: -100px;
+} */
+
+.h2{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px; 
+    padding: 0px;
+    font-weight: normal;
+}
+.bl{
+    display: block;
+}
+.ibl{
+    display: inline-block;
+}
+.fixeds{
+    position: fixed;
+}
+.reletives{
+    position: relative;
+}
+.absolutes{
+    position: absolute;
+}
+.stickys{
+    position: sticky;
+}
+.flexs{
+    display: flex;
+}
+.aic{
+    align-items: center;
+}
+.font{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+.font1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.fontb{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.b{
+    font-weight: bold;
+}
+.size12{
+    font-size: 12px;
+}
+.size13{
+    font-size: 13px;
+}
+.size14{
+    font-size: 14px;
+}
+.size15{
+    font-size: 15px;
+}
+.size16{
+    font-size: 16px;
+}
+.size18{
+    font-size: 18px;
+}
+.size20{
+    font-size: 20px;
+}
+.size22{
+    font-size: 22px;
+}
+.size24{
+    font-size: 24px;
+}
+.size25{
+    font-size: 25px;
+}
+.size30{
+    font-size: 30px;
+}
+.noul{
+    text-decoration: none;
+}
+.noul:hover{
+    text-decoration: underline;
+}
+
+/* .anim{transition: all 0.2s linear 0s;} */
+.placeholder{
+    background: #ccc;
+    animation: placeholder 1s linear infinite;
+}
+@keyframes placeholder{
+    /* 50%{opacity: 0.5;} */
+    /* 100%{opacity: 1;} */
+}
